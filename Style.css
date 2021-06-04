@@ -114,12 +114,15 @@ nav{
     #menuicon {
         visibility: visible;
         float: right;
-        width: 10%;
+        width: 9%;
      }
      .nav{
         background-color: rgb(65 179 163 / 78%);
         position: fixed;
         z-index: 999;
+    }
+    nav{
+        margin-left: -13px;
     }
     #sm{
         font-size: 17px;
