@@ -121,14 +121,11 @@ nav{
         position: fixed;
         z-index: 999;
     }
-    nav{
-        margin-left: -13px;
-    }
     #sm{
         font-size: 17px;
     }
     .logo {
-        padding-left: 50px;
+        padding-left: 22px;
         padding-top: 4px;
         color: white;
         font-family: 'Raleway', Arial, sans-serif;
@@ -453,6 +450,7 @@ main{
     background: url("img/cf.jpg");
     background-size: cover;
     background-position: 100% 80%;
+    background-repeat: no-repeat;
 }
 
 .reseration-card:hover {
