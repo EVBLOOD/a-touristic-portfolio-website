@@ -124,6 +124,14 @@ nav{
     #sm{
         font-size: 17px;
     }
+    .logo {
+        padding-left: 50px;
+        padding-top: 4px;
+        color: white;
+        font-family: 'Raleway', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
 }
 .bg-primary {
      background-color: transparent!important; 
