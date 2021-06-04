@@ -116,7 +116,8 @@ nav{
         float: right;
         width: 9%;
      }
-     .nav{
+    .nav{
+        display: none;
         background-color: rgb(65 179 163 / 78%);
         position: fixed;
         z-index: 999;

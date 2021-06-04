@@ -46,13 +46,13 @@ $(document).ready(function(){
     var tl = $(window).width();
     console.log(tl);
     if(tl < 980){
-      $("#menuicon").show();
-      $(".nav").hide();
+     // $("#menuicon").show();
+     // $(".nav").hide();
       var i = 0;
       $("#menuicon").click(function (e) { 
           e.preventDefault();
           if(i==0){
-            $(".nav").show();
+            $(".nav").css({'display': 'grid', 'width': '100%'});
             i = 1;
           }
           else{
