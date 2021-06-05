@@ -108,13 +108,52 @@ nav{
     visibility: hidden;
     float: right;
     padding-top: 8px;
-    width: 8%;
+    width: 35px;
+}
+@media screen and (max-width: 315px){
+    #pep {
+        background: url(img/ppr1.svg) bottom center no-repeat;
+        background-attachment: fixed;
+        font-size: medium;
+        height: 100%;
+    }
+    #pip {
+        background: url(img/ppr0.svg) bottom center no-repeat;
+        background-attachment: fixed;
+        font-size: medium;
+        height: 100%;
+    }
+    #pop {
+        background: url(img/ppr.svg) bottom center no-repeat;
+        height: 100%;
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 212px) {
+    #pep {
+        background: url(img/ppr1.svg) bottom center no-repeat;
+        background-attachment: fixed;
+        font-size: xx-small;
+        height: 100%;
+    }
+    #pip {
+        background: url(img/ppr0.svg) bottom center no-repeat;
+        background-attachment: fixed;
+        font-size: xx-small;
+        height: 100%;
+    }
+    #pop {
+        background: url(img/ppr.svg) bottom center no-repeat;
+        height: 100%;
+        font-size: xx-small;
+    }
 }
 @media screen and (max-width: 980px) {
     #menuicon {
         visibility: visible;
         float: right;
-        width: 9%;
+        width: 29px;   
      }
     .nav{
         display: none;
@@ -130,10 +169,14 @@ nav{
         padding-top: 4px;
         color: white;
         font-family: 'Raleway', Arial, sans-serif;
-        font-size: 30px;
+        font-size: 26px;
         font-weight: bold;
     }
+    nav{
+        height: 44px;
+    }
 }
+
 .bg-primary {
      background-color: transparent!important; 
 }
